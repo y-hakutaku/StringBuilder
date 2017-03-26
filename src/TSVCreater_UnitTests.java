@@ -5,7 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import tsv.ITSV;
-import tsv.TSVVoyagentCreator;
+import tsv.TSVSampleCreator;
 
 public class TSVCreater_UnitTests {
 
@@ -19,7 +19,7 @@ public class TSVCreater_UnitTests {
 
 	@Test
 	public void test() {
-		TSVVoyagentCreator creator = new TSVVoyagentCreator();
+		TSVSampleCreator creator = new TSVSampleCreator();
 		String sample = "sample";
 		ITSV tsv = creator.createTSV(sample);
 		

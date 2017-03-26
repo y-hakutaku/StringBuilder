@@ -6,7 +6,7 @@ import tsv.Part;
 public class ValidatorManager {
 	public IValidator getValidator(Part part,Api api){
 		switch(api) {
-			case Voyagent:
+			case Sample:
 				return getVoyagent(part);
 		}
 		
